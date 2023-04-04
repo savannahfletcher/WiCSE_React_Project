@@ -41,8 +41,8 @@ const Experience = () => {
           iconStyle = {{background: "#8198FD", color: "#FFFFFF"}}
         >
           <h3 className='vertical-timeline-element-title'>Google</h3>
-          <h4 className='vertical-timeline-element-subtitle'>STEP Intern</h4>
-          <p></p>
+          <h4 className='vertical-timeline-element-subtitle'>Incoming STEP Intern</h4>
+          <p>Will be developing front-end for visualizer tools of Google MediaPipe (ML integration tools)</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
