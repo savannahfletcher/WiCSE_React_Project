@@ -15,10 +15,10 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home/>}></Route>
-          <Route path="/projects" element={<Projects/>}></Route>
-          <Route path="/experience" element={<Experiences/>}></Route>
-          <Route path='/displayProject/:id' element={<DisplayProject/>}></Route>
+          <Route path="/WiCSE_React_Project/" element={<Home/>}></Route>
+          <Route path="/WiCSE_React_Project/projects" element={<Projects/>}></Route>
+          <Route path="/WiCSE_React_Project/experience" element={<Experiences/>}></Route>
+          <Route path='/WiCSE_React_Project/displayProject/:id' element={<DisplayProject/>}></Route>
         </Routes>
         <Footer/>
       </Router>

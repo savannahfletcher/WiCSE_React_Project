@@ -7,9 +7,9 @@ const Navbar = () => {
   return (
     <div className = "navbar">
         <div className = "links">
-            <Link to="/">Home</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/experience">Experience</Link>
+            <Link to="/WiCSE_React_Project/">Home</Link>
+            <Link to="/WiCSE_React_Project/projects">Projects</Link>
+            <Link to="/WiCSE_React_Project/experience">Experience</Link>
         </div>
     </div>
   )
