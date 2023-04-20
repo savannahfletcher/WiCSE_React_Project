@@ -12,7 +12,7 @@ const Home = () => {
         <h2>Hi, My Name is Savannah Fletcher</h2>
         <div className='prompt'>
         <p>
-          A computer science student with a passion for tech.
+          A creative computer science student with a passion for tech.
           </p>
           <GitHubIcon onClick={() => window.open('https://github.com/savannahfletcher')}/>
           <LinkedInIcon onClick={() => window.open('https://www.linkedin.com/in/savannah-fletcher-a56174251/')}/>
@@ -26,11 +26,11 @@ const Home = () => {
         <ol className="list">
           <li className="item">
             <h2>Languages</h2>
-            <span>Java, C++, TypeScript, JavaScript, CSS, HTML, ARM Assembly Language</span>
+            <span>C++, TypeScript, JavaScript, CSS, HTML, Java, ARM Assembly Language</span>
           </li>
           <li className="item">
-            <h2>Technology</h2>
-            <span>React, React Native</span>
+            <h2>Libraries & Frameworks</h2>
+            <span>React, React Native, Simple and Fast Multimedia Library (SFML)</span>
           </li>
           <li className="item">
             <h2>Coursework</h2>
@@ -39,7 +39,7 @@ Engineering</span>
           </li>
           <li className="item">
             <h2>Involvements</h2>
-            <span>UF Women in Computer Science (WiCSE), UF Open Source</span>
+            <span>UF Women in Computer Science & Engineering (WiCSE), UF Open Source Club</span>
           </li>
         </ol>
       </div>

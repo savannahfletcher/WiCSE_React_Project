@@ -10,11 +10,12 @@ const Projects = () => {
     <div className='projects'>
       <h1>My Personal Projects</h1>
       <div className='projectList'>
-        {/* <ProjectItem name ="chompSci" image={chompSci}></ProjectItem>
-        <ProjectItem name ="Minesweeper" image={chompSci}></ProjectItem> */}
-        {projectList.map((project, idx) => {
-          return <ProjectItem id = {idx} name = {project.name} image = {project.image}/>
+
+        {/* think of as a for loop */}
+        {projectList.map((project, index) => {
+          return <ProjectItem id = {index} name = {project.name} image = {project.image}/>
         })}
+        
       </div>
     </div>
   )
